@@ -51,3 +51,10 @@ To see all available languages and change the language, use the command `/setup 
 ### How can I see which member voted for what?
 To see which member voted for what, just go to the poll message, click on the three dots and select `Reactions`.  
 A window will open where you can see exactly which member has voted for what.
+
+### Why does the bot vote for all options?
+The bot must react with all possible reaction emojis when creating the poll so that members can easily click on them.  
+Otherwise, members would not see the reactions and would not be able to vote or would have to search for the reaction themselves.  
+This is a limitation of Discord, there is nothing we can do to change it.  
+Because there is a vote from the bot on all of them, the results are not affected and can be read easily.  
+Of course, the vote is not counted in closed polls!
