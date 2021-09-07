@@ -5,7 +5,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 module.exports = {
   title: 'EasyPoll Documentation',
   tagline: 'EasyPoll Documentation',
-  url: 'https://docs.easypoll.me',
+  url: 'https://docs.easypoll.bot',
   baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
@@ -28,20 +28,28 @@ module.exports = {
           items: [
             {
               label: 'Home',
-              to: 'https://easypoll.me/',
+              to: 'https://easypoll.bot/',
             },
             {
               label: 'Add Bot to Server',
-              to: 'https://easypoll.me/invite',
+              to: 'https://easypoll.bot/invite',
             },
             {
               label: 'Support',
-              to: 'https://easypoll.me/discord',
+              to: 'https://easypoll.bot/discord',
+            },
+            {
+              label: 'Commands',
+              to: 'https://easypoll.bot/commands',
             },
             /*{
-              label: 'Status Page',
-              to: '',
+              label: 'Premium',
+              to: 'https://easypoll.bot/premium',
             },*/
+            {
+              label: 'Status',
+              to: 'https://easypoll.bot/status',
+            },
           ],
         },
         {
@@ -49,11 +57,32 @@ module.exports = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/easypoll-bot/',
+              href: 'https://github.com/easypoll-bot',
             },
             {
               label: 'Discord',
-              href: 'https://easypoll.me/discord',
+              href: 'https://easypoll.bot/discord',
+            },
+          ],
+        },
+        {
+          title: 'Find Us Online',
+          items: [
+            {
+              label: 'top.gg',
+              href: 'https://top.gg/bot/437618149505105920',
+            },
+            {
+              label: 'discordbotlist.com',
+              href: 'https://discordbotlist.com/bots/easypoll',
+            },
+            {
+              label: 'discord.bots.gg',
+              href: 'https://discord.bots.gg/bots/437618149505105920',
+            },
+            {
+              label: 'voidbots.net',
+              href: 'https://voidbots.net/bot/437618149505105920',
             },
           ],
         },
@@ -62,20 +91,20 @@ module.exports = {
           items: [
             {
               label: 'Imprint',
-              to: 'https://easypoll.me/imprint-content.php',
+              to: 'https://easypoll.bot/imprint',
+            },
+            {
+              label: 'Terms of Service',
+              to: 'https://easypoll.bot/terms-of-service',
             },
             {
               label: 'Privacy Policy',
-              to: 'https://easypoll.me/privacy-content.php',
+              to: 'https://easypoll.bot/privacy-policy',
             },
-            /*{
-              label: 'Terms of Service',
-              to: '#',
-            },*/
           ],
         },
       ],
-      copyright: `&copy; ${new Date().getFullYear()} EasyPoll Bot`,
+      copyright: `&copy; 2018-${new Date().getFullYear()} EasyPoll Bot`,
     },
     prism: {
       theme: lightCodeTheme,
