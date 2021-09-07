@@ -20,7 +20,7 @@ Yes, you can use all official Discord emojis, all emojis from your own server an
 If the bot cannot use an emoji, you will get a warning message.
 
 ### How can I use custom emojis?
-To use custom emojis, just put the emoji in front of the answer (Important: with space): `:emoji: <answer>`  
+To use custom emojis, just put the emoji in front of the answer: `:emoji: <answer>`  
 Example: `:pizza: Pizza` / `🍕 Pizza`
 
 :::caution
@@ -37,8 +37,13 @@ A TimePoll can go a maximum of 7 days.
 
 ### Can I close a poll?
 Yes, you can close both normal Polls and TimePolls at any time. Use the [`/closepoll`](/commands/closepoll.md) command to do this.  
-You can find the poll ID in the footer area of each poll.  
-_PS: On cell phone you can long click on the footer to copy them._
+You can find the poll ID in the footer area of each poll.
+
+:::tip
+
+On cell phone you can long click on the footer to copy them.
+
+:::
 
 ### How can I give certain people bot rights without admin?
 Create a role with the name `PollCreator`. Users with the role can create polls.  
