@@ -6,7 +6,7 @@ module.exports = {
   title: 'EasyPoll Documentation',
   tagline: 'EasyPoll Documentation',
   url: 'https://docs.easypoll.bot',
-  baseUrl: '/',
+  baseUrl: '/wiki/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'images/favicon.svg',
