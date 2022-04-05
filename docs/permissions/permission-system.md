@@ -7,6 +7,12 @@ keywords:
     - permissions
     - roles
     - pollcreator
+    - rights
+    - access
+    - authorize
+    - permission system
+    - administration
+    - manage
 slug: /permissions/permission-system
 ---
 

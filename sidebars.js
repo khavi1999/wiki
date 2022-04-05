@@ -10,6 +10,7 @@ module.exports = {
             items: [
                 'getting-started/add-bot-to-server',
                 'getting-started/first-steps',
+                'getting-started/the-different-poll-types',
             ],
         },
         {
@@ -27,7 +28,7 @@ module.exports = {
                 'commands/poll',
                 'commands/timepoll',
                 'commands/closepoll',
-            ],	
+            ],
         },
         {
             type: 'category',

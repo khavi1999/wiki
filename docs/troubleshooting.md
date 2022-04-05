@@ -14,15 +14,10 @@ slug: /troubleshooting
 
 Here are some typical problems and mistakes and how you can solve them by yourself.
 
-### No reaction will be added to my poll..
+### Why are no reactions added to my newly created Poll?
 If the bot does not add reactions to a newly created poll, the bot will not have permissions to do that.  
 Please check the required bot permissions. In some cases, the permissions are overridden at the channel level.  
-You can also use the `/setup permissions` command for this. More information can be found at [Required Bot Permissions](/permissions/required-bot-permissions)
-
-### Polls do not work in threads and "EasyPoll is thinking"..
-We are already aware of this error. Currently there is no support from EasyPoll for the new Discord Threads.  
-We are currently waiting for an update of our library (JDA) to ensure functionality.  
-Feel free to check out [Issue #5](https://github.com/fbrettnich/easypoll-bot/issues/5) on GitHub for more information.
+You can also use the `/setup permissions` command for this. More information can be found at [Required Bot Permissions](/permissions/required-bot-permissions.md).
 
 ### For me the commands do not work or no SlashCommand popup appears..
 - Text Box Settings:  

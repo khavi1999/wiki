@@ -5,7 +5,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 module.exports = {
   title: 'EasyPoll Documentation',
   tagline: 'EasyPoll Documentation',
-  url: 'https://docs.easypoll.bot',
+  url: 'https://wiki.easypoll.bot',
   baseUrl: '/wiki/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
@@ -14,7 +14,7 @@ module.exports = {
   projectName: 'docs',
   themeConfig: {
     navbar: {
-      title: 'EasyPoll Documentation',
+      title: 'EasyPoll Wiki',
       logo: {
         alt: 'EasyPoll Logo',
         src: 'images/logo.svg',
@@ -117,7 +117,7 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/easypoll-bot/docs/edit/main/',
+          editUrl: 'https://github.com/easypoll-bot/wiki/edit/main/',
           routeBasePath: '/',
         },
         theme: {

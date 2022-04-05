@@ -11,6 +11,12 @@ keywords:
     - run check
     - setup
     - setup permissions
+    - required permissions
+    - rights
+    - roles
+    - access
+    - authorize
+    - administration
 slug: /permissions/required-bot-permissions
 ---
 
@@ -21,15 +27,17 @@ In the normal case, all required permissions are automatically assigned to the E
 In some cases, the inviter removes some required permissions, which causes the bot to stop working properly.
 
 ## Required permissions
-| Permissions          | Required | For what?                                         |
-| -------------------- | :------: | ------------------------------------------------- |
-| Read Messages        | &#9989;  | To read command and poll messages                 |
-| Send Messages        | &#9989;  | To send polls and help messages                   |
-| Manage Messages      | &#9989;  | To manage poll reactions                          |
-| Embed Links          | &#9989;  | To send and update poll message embeds            |
-| Read message History | &#9989;  | To receive old polls and to be able to close them |
-| Add Reactions        | &#9989;  | To initialize the possible answer reactions       |
-| Use External Emojis  | &#9989;  | To use custom emojis, even from other servers     |
+| Permissions                             | Required | For what?                                         |
+|-----------------------------------------| :------: |---------------------------------------------------|
+| Read Messages                           | &#9989;  | To read command and poll messages                 |
+| Send Messages                           | &#9989;  | To send polls and help messages                   |
+| Send Messages in Threads                | &#9989;  | To send polls and help messages in Threads        |
+| Manage Messages                         | &#9989;  | To manage poll reactions                          |
+| Embed Links                             | &#9989;  | To send and update poll message embeds            |
+| Read Message History                    | &#9989;  | To receive old polls and to be able to close them |
+| Mention @everyone, @here, and All Roles | &#9989;  | To mention roles in poll messages                 |
+| Add Reactions                           | &#9989;  | To initialize the possible answer reactions       |
+| Use External Emojis                     | &#9989;  | To use custom emojis, even from other servers     |
 
 ## How do I check if the bot has all permissions?
 We have added a command that allows you to check all the required permissions of the bot at both server and channel level.  
