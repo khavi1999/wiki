@@ -3,9 +3,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'EasyPoll Documentation',
-  tagline: 'EasyPoll Documentation',
-  url: 'https://wiki.easypoll.bot',
+  title: 'EasyPoll Wiki',
+  tagline: 'EasyPoll Wiki',
+  url: 'https://easypoll.bot/wiki/',
   baseUrl: '/wiki/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
@@ -132,5 +132,13 @@ module.exports = {
 		docsRouteBasePath: '/',
 		indexBlog: false,
     }]
+  ],
+  scripts: [
+    {
+      src: '/js/custom.js',
+    },
+    {
+      src: '/wiki/js/custom.js',
+    },
   ],
 };
