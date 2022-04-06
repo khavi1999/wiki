@@ -4,6 +4,8 @@ title: Poll Command
 sidebar_label: Poll
 description: Read about the Poll command to create new polls
 keywords:
+    - poll
+    - survey
     - create poll
     - new poll
     - custom poll
@@ -19,15 +21,17 @@ With the Poll Command you can easily create polls. Normal polls have no time lim
 
 ## Quick Overview
 - Command: `/poll`
-- Options: `question`, `allowmultiplechoices`, `answer[1-20]`
+- Options: `question`, `answer[1-20]`, `maxchoices`, `text`, `allowedrole`
 - Required Permissions: `Administrator`, `Manage Server`, `PollCreator`
 
 ## Arguments
-| Option                 | Description                                                                                                                                                                              | Required |
-| ---------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------: |
-| `question`             | The Poll Question.                                                                                                                                                                       | &#9989;  |
-| `allowmultiplechoices` | Are members allowed to vote for multiple answers?                                                                                                                                        | &#10060; |
-| `answer[1-20]`         | Answer options for which members can vote. For each answer custom emojis can be set ([Read more here](https://github.com/fbrettnich/easypoll-bot/wiki/FAQ#how-can-i-use-custom-emojis)). | &#10060; |
+| Option         | Description                                                                                                                                 | Required | Default |
+|----------------|---------------------------------------------------------------------------------------------------------------------------------------------|:--------:|:-------:|
+| `question`     | What is the question?                                                                                                                       | &#9989;  |         |
+| `answer[1-20]` | Answer options for which members can vote. For each answer custom emojis can be set. ([Read more here](faq.md#how-can-i-use-custom-emojis)) | &#10060; |         |
+| `maxchoices`   | How many choices are allowed per user?                                                                                                      | &#10060; |   `1`   |
+| `text`         | Text to appear above poll (introduction, ping role, ...)                                                                                    | &#10060; |         |
+| `allowedrole`  | Allowed role which can vote                                                                                                                 | &#10060; |         |
 
 ## Examples
 **Yes/No Poll**  
@@ -36,6 +40,6 @@ With the Poll Command you can easily create polls. Normal polls have no time lim
 ![yes-no-poll](/images/commands/yes-no-poll.png)
 
 **Custom Poll**  
-`/poll question:What is your favorite? allowmultiplechoices:False answer1::pizza:  Pizza answer2::hamburger:  Burger answer3::easypoll: EasyPoll answer4:Something else`
+`/poll question:What is your favorite? maxchoices:1 answer1::pizza: Pizza answer2::hamburger: Burger answer3::easypoll: EasyPoll answer4:Something else`
 
 ![custom-poll](/images/commands/custom-poll.png)

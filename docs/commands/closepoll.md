@@ -4,6 +4,7 @@ title: ClosePoll Command
 sidebar_label: ClosePoll
 description: Read about the command ClosePoll to be able to close polls
 keywords:
+    - poll
     - close poll
     - end poll
     - poll end
@@ -25,9 +26,13 @@ The ClosePoll Command can be used to close any poll directly. This will display 
 - Required Permissions: `Administrator`, `Manage Server`, `PollCreator`, `Creator of the poll`
 
 ## Arguments
-| Option   | Description                                                                     | Required |
-| -------- | ------------------------------------------------------------------------------- | :------: |
-| `pollid` | ID of the poll that is to be closed. _(Can be found in the footer of the poll)_ | &#9989;  |
+| Option   | Description                           | Required |
+| -------- |---------------------------------------| :------: |
+| `pollid` | ID of the poll that is to be closed.  | &#9989;  |
+
+:::tip
+You can find the poll id in the footer area of each poll.
+:::
 
 ## Examples
 `/closepoll pollid:QpzmWxz4rk`

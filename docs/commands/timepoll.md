@@ -2,8 +2,12 @@
 id: timepoll
 title: TimePoll Command
 sidebar_label: TimePoll
-description: Raad about the TimePoll command to create new polls with a time limit
+description: Read about the TimePoll command to create new polls with a time limit
 keywords:
+    - time
+    - timepoll
+    - poll
+    - survey
     - create time poll
     - new time poll
     - custom time poll
@@ -24,16 +28,18 @@ With the TimePoll Command you can easily create polls with time limit. After giv
 
 ## Quick Overview
 - Command: `/timepoll`
-- Options: `question`, `time`, `allowmultiplechoices`, `answer[1-20]`
+- Options: `question`, `time`, `answer[1-20]`, `maxchoices`, `text`, `allowedrole`
 - Required Permissions: `Administrator`, `Manage Server`, `PollCreator`
 
 ## Arguments
-| Option                 | Description                                                                                                                                                                              | Required |
-| ---------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------: |
-| `question`             | The Poll Question.                                                                                                                                                                       | &#9989;  |
-| `time`                 | Time how long the poll should run. Time codes can consist of several times ending with `s` (second), `m` (minute), `h` (hour), `d` (day) or `w` (week). Maximum 7 days.                  | &#9989;  |
-| `allowmultiplechoices` | Are members allowed to vote for multiple answers?                                                                                                                                        | &#10060; |
-| `answer[1-20]`         | Answer options for which members can vote. For each answer custom emojis can be set ([Read more here](/faq.md#how-can-i-use-custom-emojis)).                                             | &#10060; |
+| Option         | Description                                                                                                                                                  | Required | Default |
+|----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------:|:-------:|
+| `question`     | What is the question?                                                                                                                                        | &#9989;  |         |
+| `time`         | Time how long the poll should run. Time codes can consist of several times ending with s (second), m (minute), h (hour), d (day) or w (week). Maximum 7 days | &#9989;  |         |
+| `answer[1-20]` | Answer options for which members can vote. For each answer custom emojis can be set. ([Read more here](faq.md#how-can-i-use-custom-emojis))                  | &#10060; |         |
+| `maxchoices`   | How many choices are allowed per user?                                                                                                                       | &#10060; |   `1`   |
+| `text`         | Text to appear above poll (introduction, ping role, ...)                                                                                                     | &#10060; |         |
+| `allowedrole`  | Allowed role which can vote                                                                                                                                  | &#10060; |         |
 
 :::info
 Examples of `time` specifications:
@@ -49,6 +55,6 @@ Examples of `time` specifications:
 ![yes-no-timepoll](/images/commands/yes-no-timepoll.png)
 
 **Custom TimePoll**  
-`/timepoll question:What is your favorite? time: 5d 6h allowmultiplechoices:False answer1::pizza:  Pizza answer2::hamburger:  Burger answer3::easypoll: EasyPoll answer4:Something else`
+`/timepoll question:What is your favorite? time: 5d 6h maxchoices:1 answer1::pizza:  Pizza answer2::hamburger:  Burger answer3::easypoll: EasyPoll answer4:Something else`
 
 ![custom-timepoll](/images/commands/custom-timepoll.png)

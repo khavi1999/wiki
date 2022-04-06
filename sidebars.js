@@ -28,6 +28,7 @@ module.exports = {
                 'commands/poll',
                 'commands/timepoll',
                 'commands/closepoll',
+                'commands/listpolls',
             ],
         },
         {

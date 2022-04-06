@@ -33,6 +33,9 @@ slug: /getting-started/the-different-poll-types
 - To remove the vote, the member must vote for the option again. Also here there is a confirmation via direct message.
 
 ## Hidden Polls
+:::info
+Hidden polls are currently not available and will follow soon.
+:::
 - Hidden polls have similar features as anonymous polls.
 - Results are **only visible after closing** the poll or anytime with `/listpolls`.
 - However, **participating members are visible to users with permissions** (`/listpolls`).
