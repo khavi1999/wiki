@@ -5,8 +5,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 module.exports = {
   title: 'EasyPoll Wiki',
   tagline: 'EasyPoll Wiki',
-  url: 'https://easypoll.bot/wiki/',
-  baseUrl: '/wiki/',
+  url: 'https://wiki.easypoll.bot/',
+  baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'images/favicon.svg',
@@ -132,13 +132,5 @@ module.exports = {
 		docsRouteBasePath: '/',
 		indexBlog: false,
     }]
-  ],
-  scripts: [
-    {
-      src: '/js/custom.js',
-    },
-    {
-      src: '/wiki/js/custom.js',
-    },
   ],
 };
