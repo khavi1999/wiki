@@ -19,49 +19,75 @@ module.exports = {
         alt: 'EasyPoll Logo',
         src: 'images/logo.svg',
       },
+      items: [
+        {
+          to: 'https://easypoll.bot/',
+          label: 'Home',
+          position: 'left'
+        },
+        {
+          to: 'https://easypoll.bot/commands',
+          label: 'Commands',
+          position: 'left'
+        },
+        {
+          type: 'doc',
+          position: 'left',
+          docId: 'introduction',
+          label: 'Wiki',
+        },
+      ],
     },
     footer: {
       style: 'dark',
       links: [
         {
-          title: 'EasyPoll',
+          title: 'Features',
           items: [
             {
               label: 'Home',
               to: 'https://easypoll.bot/',
             },
             {
-              label: 'Add Bot to Server',
+              label: 'Invite',
               to: 'https://easypoll.bot/invite',
-            },
-            {
-              label: 'Support',
-              to: 'https://easypoll.bot/discord',
             },
             {
               label: 'Commands',
               to: 'https://easypoll.bot/commands',
             },
+            {
+              label: 'Vote',
+              to: 'https://easypoll.bot/vote',
+            },
+            {
+              label: 'Team',
+              to: 'https://easypoll.bot/team',
+            },
             /*{
               label: 'Premium',
               to: 'https://easypoll.bot/premium',
-            },*/
+            },
             {
               label: 'Status',
               to: 'https://easypoll.bot/status',
-            },
+            },*/
           ],
         },
         {
-          title: 'Social Media',
+          title: 'Get Help',
           items: [
             {
-              label: 'GitHub',
-              href: 'https://github.com/easypoll-bot',
+              label: 'FAQ',
+              to: 'faq',
             },
             {
-              label: 'Discord',
-              href: 'https://easypoll.bot/discord',
+              label: 'Wiki',
+              to: '/',
+            },
+            {
+              label: 'Join our Discord',
+              to: 'https://easypoll.bot/discord',
             },
           ],
         },
@@ -70,19 +96,32 @@ module.exports = {
           items: [
             {
               label: 'top.gg',
-              href: 'https://top.gg/bot/437618149505105920',
+              to: 'https://top.gg/bot/437618149505105920',
             },
             {
               label: 'discordbotlist.com',
-              href: 'https://discordbotlist.com/bots/easypoll',
+              to: 'https://discordbotlist.com/bots/easypoll',
             },
             {
               label: 'discord.bots.gg',
-              href: 'https://discord.bots.gg/bots/437618149505105920',
+              to: 'https://discord.bots.gg/bots/437618149505105920',
             },
             {
               label: 'voidbots.net',
-              href: 'https://voidbots.net/bot/437618149505105920',
+              to: 'https://voidbots.net/bot/437618149505105920',
+            },
+          ],
+        },
+        {
+          title: 'Our Partners',
+          items: [
+            {
+              label: 'DiscordLookup',
+              to: 'https://discordlookup.com/',
+            },
+            {
+              label: 'ProHosting24',
+              to: 'https://easypoll.bot/partner/prohosting24',
             },
           ],
         },
@@ -104,7 +143,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `&copy; 2018-${new Date().getFullYear()} EasyPoll Bot`,
+      copyright: `&copy; 2018-${new Date().getFullYear()} <b>EasyPoll Bot</b>`,
     },
     prism: {
       theme: lightCodeTheme,
