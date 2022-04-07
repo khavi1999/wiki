@@ -32,6 +32,10 @@ module.exports = {
             ],
         },
         {
+            type: 'doc',
+            id: 'apps',
+        },
+        {
             type: 'category',
             label: 'Permissions',
             items: [
