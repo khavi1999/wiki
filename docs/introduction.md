@@ -24,5 +24,13 @@ slug: /
 
 ---
 
-## Welcome to EasyPoll
-Hello and welcome to the official EasyPoll Bot Documentation.
+## Welcome to the EasyPoll Wiki
+Here in the official wiki of the EasyPoll Discord Bot you will learn everything you need to know about using the bot.
+
+:::tip
+If you like EasyPoll, a [upvote](https://top.gg/bot/437618149505105920/vote) would help us a lot! [Click here to vote](https://top.gg/bot/437618149505105920/vote)
+:::
+
+:::info
+If you need further help, visit our [Discord server](https://easypoll.bot/discord).
+:::
