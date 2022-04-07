@@ -27,5 +27,9 @@ To open the app menu, right click on a poll message and select `Apps`.
 ## Close this poll
 The `Close this poll` action closes the selected poll, as when using [`/closepoll`](/commands/closepoll.md).
 
+![Message actions](/images/apps/close-this-poll.png)
+
 ## Poll Details
 The `Poll Details` action shows an overview of the selected poll, as when using [`/listpolls`](/commands/listpolls.md) and selecting the poll
+
+![Message actions](/images/apps/poll-details.png)

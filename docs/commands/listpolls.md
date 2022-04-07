@@ -36,3 +36,6 @@ Shows all polls on the current server. Information about the status, participant
 ## Examples
 **List All Polls**  
 `/listpolls`
+
+![yes-no-poll](/images/commands/listpolls-list.png)
+![yes-no-poll](/images/commands/listpolls-poll.png)

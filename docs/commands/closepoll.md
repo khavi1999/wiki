@@ -35,6 +35,6 @@ You can find the poll id in the footer area of each poll.
 :::
 
 ## Examples
-`/closepoll pollid:QpzmWxz4rk`
+`/closepoll pollid:EcXPpbDJLE`
 
 ![closepoll](/images/commands/closepoll.png)

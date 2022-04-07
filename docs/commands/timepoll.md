@@ -52,9 +52,9 @@ Examples of `time` specifications:
 **Yes/No TimePoll**  
 `/timepoll question: Are you happy? time: 3h 15m`
 
-![yes-no-timepoll](/images/commands/yes-no-timepoll.png)
+![yes-no-timepoll](/images/commands/timepoll-yesno.png)
 
 **Custom TimePoll**  
 `/timepoll question:What is your favorite? time: 5d 6h maxchoices:1 answer1::pizza:  Pizza answer2::hamburger:  Burger answer3::easypoll: EasyPoll answer4:Something else`
 
-![custom-timepoll](/images/commands/custom-timepoll.png)
+![custom-timepoll](/images/commands/timepoll-custom.png)

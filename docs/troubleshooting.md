@@ -19,6 +19,8 @@ If the bot does not add reactions to a newly created poll, the bot will not have
 Please check the required bot permissions. In some cases, the permissions are overridden at the channel level.  
 You can also use the `/setup permissions` command for this. More information can be found at [Required Bot Permissions](/permissions/required-bot-permissions.md).
 
+![slashcommands-disabled](/images/troubleshooting/setup-permissions.png)
+
 ### For me the commands do not work or no SlashCommand popup appears..
 - Text Box Settings:  
   It is possible that in your client you have turned off that help is displayed when writing.

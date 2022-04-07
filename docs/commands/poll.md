@@ -37,9 +37,9 @@ With the Poll Command you can easily create polls. Normal polls have no time lim
 **Yes/No Poll**  
 `/poll question:Are you happy?`
 
-![yes-no-poll](/images/commands/yes-no-poll.png)
+![yes-no-poll](/images/commands/poll-yesno.png)
 
 **Custom Poll**  
 `/poll question:What is your favorite? maxchoices:1 answer1::pizza: Pizza answer2::hamburger: Burger answer3::easypoll: EasyPoll answer4:Something else`
 
-![custom-poll](/images/commands/custom-poll.png)
+![custom-poll](/images/commands/poll-custom.png)
