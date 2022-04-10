@@ -2,12 +2,16 @@
 id: faq
 title: FAQ
 sidebar_label: FAQ
-description: Frequently Asked Questions
+description: In our faq you will find common questions and problems with the corresponding answers and solutions.
 keywords:
     - faq
     - frequently asked questions
     - questions
+    - problems
+    - common questions
     - help
+    - corresponding answers
+    - solutions
 slug: /faq
 ---
 

@@ -30,7 +30,7 @@ You should not look on the right in the member list, if the bot has no permissio
 
 ## 2. Configure the bot language
 To make the bot respond in your language, you should configure the language of the bot.  
-For this, use the command `/setup permissions` and select your preferred language.
+For this, use the command `/setup language` and select your preferred language.
 
 ![Change bot language](/images/getting-started/first-steps/change-bot-language.png)
 

@@ -13,6 +13,37 @@ module.exports = {
   organizationName: 'easypoll-bot',
   projectName: 'docs',
   themeConfig: {
+    image: 'https://easypoll.bot/images/logo.png',
+    metadata: [
+      {
+        name: 'theme-color',
+        content: '#00dfee',
+      },
+      {
+        property: 'og:site_name',
+        content: 'EasyPoll',
+      },
+      {
+        property: 'og:site',
+        content: 'https://wiki.easypoll.bot/',
+      },
+      {
+        property: 'og:type',
+        content: 'website',
+      },
+      {
+        name: 'twitter:card',
+        content: 'summary',
+      },
+      {
+        name: 'twitter:site',
+        content: '@EasyPollBot',
+      },
+      {
+        name: 'twitter:creator',
+        content: '@EasyPollBot',
+      },
+    ],
     navbar: {
       title: 'EasyPoll Wiki',
       logo: {
@@ -168,7 +199,6 @@ module.exports = {
   plugins: [
     [require.resolve('@cmfcmf/docusaurus-search-local'), {
 		indexDocs: true,
-		docsRouteBasePath: '/',
 		indexBlog: false,
     }]
   ],
