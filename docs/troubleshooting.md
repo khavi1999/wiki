@@ -21,10 +21,19 @@ You can also use the `/setup permissions` command for this. More information can
 
 ![slashcommands-disabled](/images/troubleshooting/setup-permissions.png)
 
+### Why I do not see the poll message?
+If bot messages look like this to you, you have embeds disabled in the client settings.
+
+![bot-message-no-embed](/images/troubleshooting/bot-message-no-embed.png)
+
+To enable embeds, go to `Settings` => `Text & Images` and enable `Show embeds [...]`
+
+![text-settings-show-embeds](/images/troubleshooting/text-settings-show-embeds.png)
+
 ### For me the commands do not work or no SlashCommand popup appears..
 - Text Box Settings:  
   It is possible that in your client you have turned off that help is displayed when writing.
-  - `Settings` => `Text & Images` => `Text Box` => `Use slash commands [..]`
+  - `Settings` => `Text & Images` => `Use slash commands [..]`
 
     ![slashcommands-disabled](/images/troubleshooting/slashcommands-disabled.png)
 
