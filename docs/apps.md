@@ -15,10 +15,6 @@ slug: /apps
 
 ---
 
-:::warning
-Apps are currently only available in the desktop version of Discord.
-:::
-
 EasyPoll currently offers two features via Discord Apps to manage polls faster.  
 To open the app menu, right click on a poll message and select `Apps`.
 

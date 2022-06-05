@@ -71,11 +71,6 @@ You can find the poll id in the footer area of each poll.
 On cell phone you can long click on the footer to copy them.
 :::
 
-:::warning
-Apps are currently only available in the desktop version of Discord.  
-_(Mobile use the /closepoll command)_
-:::
-
 ### How can I allow/deny multiple answers?
 In [`/poll`](/commands/poll.md) & [`/timepoll`](/commands/timepoll.md) there is a parameter option called `maxchoices`.  
 With this option you can define the **number of maxchoices**. By default, one answer is allowed.
@@ -107,11 +102,6 @@ To close a poll use [`/closepoll`](/commands/closepoll.md) or `right click` => `
 
 :::tip
 To see the current result without closing the poll, use /listpolls
-:::
-
-:::warning
-Apps are currently only available in the desktop version of Discord.  
-_(Mobile use the /closepoll command)_
 :::
 
 ### Why does the bot vote for all options?
