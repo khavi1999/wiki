@@ -28,7 +28,7 @@ With the TimePoll Command you can easily create polls with time limit. After giv
 
 ## Quick Overview
 - Command: `/timepoll`
-- Options: `question`, `time`, `answer[1-20]`, `maxchoices`, `text`, `allowedrole`
+- Options: `question`, `time`, `answer[1-20]`, `anonymous`, `maxchoices`, `text`, `allowedrole`
 - Required Permissions: `Administrator`, `Manage Server`, `PollCreator`
 
 ## Arguments
@@ -37,6 +37,7 @@ With the TimePoll Command you can easily create polls with time limit. After giv
 | `question`     | What is the question?                                                                                                                                        | &#9989;  |         |
 | `time`         | Time how long the poll should run. Time codes can consist of several times ending with s (second), m (minute), h (hour), d (day) or w (week). Maximum 7 days | &#9989;  |         |
 | `answer[1-20]` | Answer options for which members can vote. For each answer custom emojis can be set. ([Read more here](faq.md#how-can-i-use-custom-emojis))                  | &#10060; |         |
+| `anonymous`    | Is this an anonymous poll? ([Read more here](getting-started/the-different-poll-types.md))                                                                   | &#10060; |   No    |
 | `maxchoices`   | How many choices are allowed per user?                                                                                                                       | &#10060; |   `1`   |
 | `text`         | Text to appear above poll (introduction, ping role, ...)                                                                                                     | &#10060; |         |
 | `allowedrole`  | Allowed role which can vote                                                                                                                                  | &#10060; |         |
