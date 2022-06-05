@@ -17,6 +17,8 @@ keywords:
     - access
     - authorize
     - administration
+    - channel
+    - channel permissions
 slug: /permissions/required-bot-permissions
 ---
 
@@ -44,6 +46,26 @@ We have added a command that allows you to check all the required permissions of
 The command for this is `/setup permissions`.
 
 ![setup-permissions](/images/commands/setup-permissions.png)
+
+## How do I set permissions at the channel level?
+It is important that the required bot permissions are not overridden at the channel level.  
+If the bot does not have channel level permissions _(because you are overriding it with the @everyone role, for example)_, you can set the permissions at channel level as follows:  
+
+1. Go to the Channel Settings  
+![edit-channel](/images/permissions/edit-channel.png)
+
+
+2. Go to Permissions  
+![channel-permissions](/images/permissions/channel-permissions.png)
+
+
+3. Add EasyPoll  
+![permissions-add-role](/images/permissions/permissions-add-role.png)
+
+
+4. Select all required permissions and click save changes  
+![set-channel-permissions](/images/permissions/set-channel-permissions.png)
+
 
 ## What happens if the bot does not have all required permissions?
 EasyPoll will try to work as good as possible. However, there will be errors, for example:
