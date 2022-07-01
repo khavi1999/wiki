@@ -14,12 +14,16 @@ slug: /troubleshooting
 
 Here are some typical problems and mistakes and how you can solve them by yourself.
 
+---
+
 ### Why are no reactions added to my newly created Poll?
 If the bot does not add reactions to a newly created poll, the bot will not have permissions to do that.  
 Please check the required bot permissions. In some cases, the permissions are overridden at the channel level.  
 You can also use the `/setup permissions` command for this. More information can be found at [Required Bot Permissions](/permissions/required-bot-permissions.md).
 
 ![slashcommands-disabled](/images/troubleshooting/setup-permissions.png)
+
+---
 
 ### Why I do not see the poll message?
 If bot messages look like this to you, you have embeds disabled in the client settings.
@@ -29,6 +33,8 @@ If bot messages look like this to you, you have embeds disabled in the client se
 To enable embeds, go to `Settings` => `Text & Images` and enable `Show embeds [...]`
 
 ![text-settings-show-embeds](/images/troubleshooting/text-settings-show-embeds.png)
+
+---
 
 ### For me the commands do not work or no SlashCommand popup appears..
 - Text Box Settings:  
