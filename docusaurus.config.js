@@ -54,12 +54,14 @@ module.exports = {
         {
           to: 'https://easypoll.bot/',
           label: 'Home',
-          position: 'left'
+          position: 'left',
+          target: '_self',
         },
         {
           to: 'https://easypoll.bot/commands',
           label: 'Commands',
-          position: 'left'
+          position: 'left',
+          target: '_self',
         },
         {
           type: 'doc',
@@ -78,31 +80,31 @@ module.exports = {
             {
               label: 'Home',
               to: 'https://easypoll.bot/',
+              target: '_self',
             },
             {
               label: 'Invite',
               to: 'https://easypoll.bot/invite',
+              target: '_self',
             },
             {
               label: 'Commands',
               to: 'https://easypoll.bot/commands',
+              target: '_self',
             },
             {
               label: 'Vote',
               to: 'https://easypoll.bot/vote',
             },
-            {
-              label: 'Team',
-              to: 'https://easypoll.bot/team',
-            },
             /*{
               label: 'Premium',
               to: 'https://easypoll.bot/premium',
-            },
+              target: '_self'
+            },*/
             {
               label: 'Status',
-              to: 'https://easypoll.bot/status',
-            },*/
+              to: 'https://status.easypoll.bot/',
+            },
           ],
         },
         {
@@ -162,14 +164,17 @@ module.exports = {
             {
               label: 'Imprint',
               to: 'https://easypoll.bot/imprint',
+              target: '_self',
             },
             {
               label: 'Terms of Service',
               to: 'https://easypoll.bot/terms-of-service',
+              target: '_self',
             },
             {
               label: 'Privacy Policy',
               to: 'https://easypoll.bot/privacy-policy',
+              target: '_self',
             },
           ],
         },
