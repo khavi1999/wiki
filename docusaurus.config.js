@@ -11,7 +11,7 @@ module.exports = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'images/favicon.svg',
   organizationName: 'easypoll-bot',
-  projectName: 'docs',
+  projectName: 'wiki',
   themeConfig: {
     image: 'https://easypoll.bot/images/logo.png',
     metadata: [
