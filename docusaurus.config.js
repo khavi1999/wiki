@@ -13,6 +13,11 @@ module.exports = {
   organizationName: 'easypoll-bot',
   projectName: 'wiki',
   themeConfig: {
+    colorMode: {
+      defaultMode: 'dark',
+      disableSwitch: true,
+      respectPrefersColorScheme: false,
+    },
     image: 'https://easypoll.bot/images/logo.png',
     metadata: [
       {
