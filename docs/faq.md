@@ -114,6 +114,11 @@ On cell phone you can long click on the footer to copy them.
 
 ---
 
+### Can I edit a poll?
+At the moment you can't edit polls. This will be possible with a future version.
+
+---
+
 ### How can I allow/deny multiple answers?
 In [`/poll`](/commands/poll.md) & [`/timepoll`](/commands/timepoll.md) there is a parameter option called `maxchoices`.  
 With this option you can define the **number of maxchoices**. By default, one answer is allowed.
@@ -147,13 +152,23 @@ Learn more about [the different poll types](/getting-started/the-different-poll-
 
 ---
 
+### How can I check the anonymous result before the poll is closed?
+Go to the poll message => right click => `Apps` => `Poll Details` or use the [`/listpoll`](/commands/listpolls.md) command.
+
+---
+
 ### How can I show the final result in the poll?
 To display the final result in the poll message, the poll must be closed.  
 To close a poll use [`/closepoll`](/commands/closepoll.md) or `right click` => `Apps` => `Close this poll`.
 
 :::tip
-To see the current result without closing the poll, use /listpolls
+To see the current result without closing the poll, use [`/listpoll`](/commands/listpolls.md)
 :::
+
+---
+
+### Can I help to translate the bot?
+Of course! If there is a language you can translate which is not translated yet, you can create a ticket on our [Discord server](https://easypoll.bot/discord) and we'll get in touch with you.
 
 ---
 
