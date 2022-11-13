@@ -16,6 +16,7 @@ keywords:
     - participating members
     - confirmation
 slug: /getting-started/the-different-poll-types
+displayed_sidebar: docs
 ---
 
 ---

@@ -4,15 +4,23 @@ title: Troubleshooting
 sidebar_label: Troubleshooting
 description: Welcome to the EasyPoll Bot Documentation! Here you can find a lot of useful information.
 keywords:
-- easypoll troubleshooting
-- troubleshooting
-- help
+    - easypoll troubleshooting
+    - troubleshooting
+    - help
 slug: /troubleshooting
+displayed_sidebar: docs
 ---
 
 ---
 
 Here are some typical problems and mistakes and how you can solve them by yourself.
+
+## Table of Contents
+| Problem                                                                                                                                |
+|-----------------------------------------------------------------------------------------------------------------------------------------|
+| [Why are no reactions added to my newly created Poll?](why-are-no-reactions-added-to-my-newly-created-poll)                             |
+| [Why I do not see the poll message?](#why-i-do-not-see-the-poll-message)                                                                |
+| [For me the commands do not work or no SlashCommand popup appears..](#for-me-the-commands-do-not-work-or-no-slashcommand-popup-appears) |
 
 ---
 

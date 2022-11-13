@@ -13,6 +13,7 @@ keywords:
     - first poll
     - help
 slug: /getting-started/first-steps
+displayed_sidebar: docs
 ---
 
 ---

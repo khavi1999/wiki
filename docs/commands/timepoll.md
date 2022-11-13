@@ -17,6 +17,7 @@ keywords:
     - poll with time
     - time limit
 slug: /commands/timepoll
+displayed_sidebar: docs
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

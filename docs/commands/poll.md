@@ -10,6 +10,7 @@ keywords:
     - new poll
     - custom poll
 slug: /commands/poll
+displayed_sidebar: docs
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

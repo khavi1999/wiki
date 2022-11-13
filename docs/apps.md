@@ -11,6 +11,7 @@ keywords:
     - poll details
     - message
 slug: /apps
+displayed_sidebar: docs
 ---
 
 ---

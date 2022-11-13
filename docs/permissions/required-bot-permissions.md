@@ -20,6 +20,7 @@ keywords:
     - channel
     - channel permissions
 slug: /permissions/required-bot-permissions
+displayed_sidebar: docs
 ---
 
 ---

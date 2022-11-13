@@ -11,6 +11,7 @@ keywords:
     - poll list
     - polls
 slug: /commands/listpolls
+displayed_sidebar: docs
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

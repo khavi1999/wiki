@@ -11,6 +11,7 @@ keywords:
     - final result
     - poll result
 slug: /commands/closepoll
+displayed_sidebar: docs
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

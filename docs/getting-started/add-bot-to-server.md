@@ -19,6 +19,7 @@ keywords:
     - start
     - add
 slug: /getting-started/add-bot-to-server
+displayed_sidebar: docs
 ---
 
 ---

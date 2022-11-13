@@ -14,6 +14,7 @@ keywords:
     - administration
     - manage
 slug: /permissions/permission-system
+displayed_sidebar: docs
 ---
 
 ---

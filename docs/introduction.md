@@ -20,6 +20,7 @@ keywords:
     - discord poll bot
     - poll bot discord
 slug: /
+displayed_sidebar: docs
 ---
 
 ---
