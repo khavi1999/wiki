@@ -74,6 +74,12 @@ module.exports = {
           docId: 'introduction',
           label: 'Wiki',
         },
+        {
+          type: 'doc',
+          position: 'left',
+          docId: 'api/introduction',
+          label: 'API',
+        },
       ],
     },
     footer: {

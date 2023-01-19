@@ -44,4 +44,14 @@ module.exports = {
             ],
         },
     ],
+    api: [
+        {
+            type: 'doc',
+            id: 'api/introduction',
+        },
+        {
+            type: 'doc',
+            id: 'api/polls',
+        },
+    ],
 };
