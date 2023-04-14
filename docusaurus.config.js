@@ -184,7 +184,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `&copy; 2018-${new Date().getFullYear()} <b>EasyPoll Bot</b>`,
+      copyright: `&copy; 2018-${new Date().getFullYear()} <b>EasyPoll</b>`,
     },
     prism: {
       theme: lightCodeTheme,
