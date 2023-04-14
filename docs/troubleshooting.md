@@ -16,9 +16,9 @@ displayed_sidebar: docs
 Here are some typical problems and mistakes and how you can solve them by yourself.
 
 ## Table of Contents
-| Problem                                                                                                                                |
+| Problem                                                                                                                                 |
 |-----------------------------------------------------------------------------------------------------------------------------------------|
-| [Why are no reactions added to my newly created Poll?](why-are-no-reactions-added-to-my-newly-created-poll)                             |
+| [Why are no reactions added to my newly created Poll?](#why-are-no-reactions-added-to-my-newly-created-poll)                            |
 | [Why I do not see the poll message?](#why-i-do-not-see-the-poll-message)                                                                |
 | [For me the commands do not work or no SlashCommand popup appears..](#for-me-the-commands-do-not-work-or-no-slashcommand-popup-appears) |
 

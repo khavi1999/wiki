@@ -46,7 +46,7 @@ This is the code of the two-step verification you set up on Discord.
 
 ## 4. Check Permissions and click Authorize
 Now you can see which permissions the bot needs on your server.  
-It is not recommended to remove one or more of these permissions from the bot. More information about the required permissions can be found at [Required Bot Permissions](route('docs.show','required-bot-permissions'))  
+It is not recommended to remove one or more of these permissions from the bot. More information about the required permissions can be found at [Required Bot Permissions](/permissions/required-bot-permissions.md)  
 Click `Authorize` to add the bot and give it the selected permissions.
 
 ![Authorize invite](/images/oauth2/authorize-invite.png)
