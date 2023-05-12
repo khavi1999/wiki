@@ -43,5 +43,9 @@ module.exports = {
                 'permissions/required-bot-permissions',
             ],
         },
+        {
+            type: 'doc',
+            id: 'breakingchanges',
+        },
     ],
 };
