@@ -18,30 +18,6 @@ displayed_sidebar: docs
 
 ---
 
-## Table of Contents
-| Question                                                                                                                           |
-|------------------------------------------------------------------------------------------------------------------------------------|
-| [What is the bot prefix?](#what-is-the-bot-prefix)                                                                                 |
-| [Can I change the bot prefix?](#can-i-change-the-bot-prefix)                                                                       |
-| [Can I change the language?](#can-i-change-the-language)                                                                           |
-| [Where can I find the poll id?](#where-can-i-find-the-poll-id)                                                                     |
-| [Where can I find the dashboard?](#where-can-i-find-the-dashboard)                                                                 |
-| [How can I get EasyPoll Premium?](#how-can-i-get-easypoll-premium)                                                                 |
-| [How can I use custom emojis?](#how-can-i-use-custom-emojis)                                                                       |
-| [Can I do time polls?](#can-i-do-time-polls)                                                                                       |
-| [Can I close a poll?](#can-i-close-a-poll)                                                                                         |
-| [Can I edit a poll?](#can-i-edit-a-poll)                                                                                           |
-| [How can I allow/deny multiple answers?](#how-can-i-allowdeny-multiple-answers)                                                    |
-| [How can I give certain people bot rights without admin?](#how-can-i-give-certain-people-bot-rights-without-admin)                 |
-| [How can I see which member voted for what?](#how-can-i-see-which-member-voted-for-what)                                           |
-| [How can I see who voted for what on an anonymous poll?](#how-can-i-see-who-voted-for-what-on-an-anonymous-poll)                   |
-| [How can I check the anonymous result before the poll is closed?](#how-can-i-check-the-anonymous-result-before-the-poll-is-closed) |
-| [How can I show the final result in the poll?](#how-can-i-show-the-final-result-in-the-poll)                                       |
-| [Can I help to translate the bot?](#can-i-help-to-translate-the-bot)                                                               |
-| [Why does the bot vote for all options?](#why-does-the-bot-vote-for-all-options)                                                   |
-
----
-
 ### What is the bot prefix?
 The bot prefix is `/` (slash).  
 EasyPoll listens exclusively to Discord SlashCommands. For all commands use `/help`.
