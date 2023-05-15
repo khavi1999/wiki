@@ -22,7 +22,7 @@ displayed_sidebar: docs
 EasyPoll uses a very simple permission system with Discord permissions, roles and channel names.
 
 ## Poll Permission Overview
-|                                  | Permission: `ADMINISTRATOR` | Permission: `MANAGE_PERMISSIONS` | Role: `PollCreator` | Channel-Topic: `easypoll` | Role: `@everyone` |
+|                                   | Role: `PollCreator` | Channel-Topic: `easypoll` | Role: `@everyone` |
 | -------------------------------- | :-------------------------: | :------------------------------: | :-----------------: | :-----------------------: | :---------------: |
 | Create polls everywhere          | &#9989;                     | &#9989;                          | &#9989;             | &#10060;                  | &#10060;          |
 | Close polls everywhere           | &#9989;                     | &#9989;                          | &#9989;             | &#10060;                  | &#10060;          |
